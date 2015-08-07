@@ -1,6 +1,6 @@
 {
   "name": "widow-killer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript function to remove widows from elements.",
   "main": "index.js",
   "scripts": {
