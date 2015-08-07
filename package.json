@@ -1,0 +1,23 @@
+{
+  "name": "widow-killer",
+  "version": "0.0.1",
+  "description": "JavaScript function to remove widows from elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simmo/widow-killer.git"
+  },
+  "keywords": [
+    "widow",
+    "javascript"
+  ],
+  "author": "Mike Simmonds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simmo/widow-killer/issues"
+  },
+  "homepage": "https://github.com/simmo/widow-killer#readme"
+}
