@@ -1,0 +1,11 @@
+language: node_js
+before_script:
+  - yarn build
+node_js:
+  - 'node'
+  - '8'
+branches:
+  only:
+    - master
+    - develop
+    - /^release/

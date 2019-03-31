@@ -1,23 +1,90 @@
 {
-  "name": "widow-killer",
-  "version": "0.0.2",
-  "description": "JavaScript function to remove widows from elements.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simmo/widow-killer.git"
-  },
-  "keywords": [
-    "widow",
-    "javascript"
-  ],
-  "author": "Mike Simmonds",
+  "name": "@simmo/widower",
+  "version": "1.0.0",
+  "description": "JavaScript function to remove widows from text.",
+  "author": "Mike Simmonds (https://simmo.me)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/simmo/widow-killer/issues"
+  "repository": "github:simmo/widower",
+  "keywords": [
+    "javascript",
+    "typography",
+    "widow"
+  ],
+  "main": "index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src",
+    "prepublishOnly": "npm run build",
+    "build": "rollup -c"
   },
-  "homepage": "https://github.com/simmo/widow-killer#readme"
+  "files": [
+    "index.js",
+    "es"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "prettierIgnore": [
+    "package.json",
+    "/es",
+    "/index.js"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "node": true,
+      "jest": true
+    }
+  },
+  "browserslist": [
+    "last 1 Edge version",
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "ie >= 11",
+    "safari >= 10",
+    "ios >= 10",
+    "last 1 ChromeAndroid version",
+    "last 1 ExplorerMobile version"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          },
+          "modules": false
+        }
+      ]
+    ],
+    "env": {
+      "test": {
+        "presets": [
+          "@babel/preset-env"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4",
+    "rollup": "^1.7.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-size-snapshot": "^0.8.0",
+    "rollup-plugin-terser": "^4.0.4"
+  }
 }
