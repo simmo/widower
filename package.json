@@ -4,6 +4,7 @@
   "description": "JavaScript function to remove widows from text.",
   "author": "Mike Simmonds (https://simmo.me)",
   "license": "MIT",
+  "private": false,
   "repository": "github:simmo/widower",
   "keywords": [
     "javascript",
