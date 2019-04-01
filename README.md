@@ -23,6 +23,6 @@ MIT © [Mike Simmonds](https://simmo.me)
 
 [image-downloads]: https://img.shields.io/npm/dm/@simmo/widower.svg?style=flat-square
 [image-npm]: https://img.shields.io/npm/v/@simmo/widower.svg?style=flat-square
-[image-travis]: https://img.shields.io/travis/@simmo/widower.svg?style=flat-square
+[image-travis]: https://img.shields.io/travis/com/simmo/widower.svg?style=flat-square
 [url-npm]: https://npmjs.org/package/@simmo/widower
-[url-travis]: https://travis-ci.org/@simmo/widower
+[url-travis]: https://travis-ci.com/simmo/widower
