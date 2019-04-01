@@ -1,15 +1,28 @@
-# Widow Killer
+# Widower
 
-JavaScript function to remove widows from elements.
+[![npm][image-npm]][url-npm] [![downloads][image-downloads]][url-npm] [![Travis][image-travis]][url-travis]
+
+Often when working with responsive designs, text will wrap leaving a widowed word on a new line. This JavaScript function replaces the last space with a non breaking space.
 
 ## Install
 
-    npm i widow-killer
+```bash
+npm i @simmo/widower
+```
 
 ## Usage
 
-    var widowKiller = require('widow-killer');
+```javascript
+const widower = require('widow-killer')
 
-    widowKiller('p, li, h3');
+widower('Hello world')
+// => Hello\u00A0world
+```
 
-(C) Mike Simmonds 2015
+MIT © [Mike Simmonds](https://simmo.me)
+
+[image-downloads]: https://img.shields.io/npm/dm/@simmo/widower.svg?style=flat-square
+[image-npm]: https://img.shields.io/npm/v/@simmo/widower.svg?style=flat-square
+[image-travis]: https://img.shields.io/travis/zone/frontend.svg?style=flat-square
+[url-npm]: https://npmjs.org/package/@simmo/widower
+[url-travis]: https://travis-ci.org/zone/frontend
