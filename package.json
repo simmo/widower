@@ -1,6 +1,6 @@
 {
   "name": "@simmo/widower",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript function to remove widows from text.",
   "author": "Mike Simmonds (https://simmo.me)",
   "license": "MIT",
