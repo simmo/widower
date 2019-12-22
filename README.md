@@ -1,5 +1,7 @@
 # Widower
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/simmo/widower.svg)](https://greenkeeper.io/)
+
 [![npm][image-npm]][url-npm] [![downloads][image-downloads]][url-npm] [![Travis][image-travis]][url-travis]
 
 Often when working with responsive designs, text will wrap leaving a widowed word on a new line. This JavaScript function replaces the last space with a non breaking space.
