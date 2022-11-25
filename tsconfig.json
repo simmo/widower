@@ -1,0 +1,13 @@
+{
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./src/**/*.test.ts"],
+  "compilerOptions": {
+    "lib": ["es2021", "DOM"],
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node"
+  }
+}
